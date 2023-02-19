@@ -1,0 +1,241 @@
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#taps{
+    color: aliceblue;
+}
+#taps:hover{
+    color: antiquewhite;
+}
+#about-me{
+    color: aliceblue;
+}
+#about-me:hover{
+    color: antiquewhite
+}
+#my-projects{
+    color: aliceblue;
+}
+#my-projects:hover{
+    color: antiquewhite;
+}
+#personal-interests{
+    color: aliceblue;
+}
+#personal-interests:hover{
+    color: antiquewhite;
+}
+.navto{
+    display: flex;
+}
+.hero{
+    background: url(https://blog.japanwondertravel.com/wp-content/uploads/2022/02/1472255_m.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.selfie{
+    height: 400px;
+    width: 400px;
+    border: solid 10px;
+    border-color: aliceblue;
+    border-radius: 50%;
+    box-shadow: 5px; 
+}
+.greeting{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about{
+    margin-top: 10px;
+    background-color: rgb(0, 75, 249);
+    background-image: linear-gradient(to right, rgb(0, 75, 249) , rgb(255, 187, 0));
+    height: auto;
+}
+.tldr{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+.about-content{
+    padding: 3%;
+}
+.my-attributes{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.attribute{
+    width: 40vw;
+    background-color: antiquewhite;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+.fantastic-attribute{
+    width: 40vw;
+    background-color: antiquewhite;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.my-applications-backdrop{
+    padding-top: 3%;
+    background: url(https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg) no-repeat fixed;
+    text-align: center;
+    color: aliceblue;
+}
+.my-applications{
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.proj-shots-endeavor{
+    margin-top: 10px;
+    width: 49vw;
+    height: 45vh;
+    margin-right: 5px;
+}
+.proj-shots-pokego{
+    margin-top: 10px;
+    width: 49vw;
+    height: 45vh;
+    margin-left: 5px;
+}
+.proj-shots-weather{
+    margin-top: 10px;
+    width: 50vw;
+    height: 45vh;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.proj-info1{
+    background-color: rgb(0, 75, 249);
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin-right: 5px;
+    height: 200px;
+    width: 49vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.proj-info1:hover{
+    background-color: rgb(0, 75, 249);
+    background-image: linear-gradient(to right, rgb(0, 75, 249) , rgb(255, 187, 0));
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin-right: 5px;
+    height: 200px;
+    width: 49vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.endeavor{
+    transition: transform 0.5s;
+}
+.endeavor:hover{
+    transform: scale(1.03);
+}
+.pokego{
+    transition: transform 0.5s;
+}
+.pokego:hover{
+    transform: scale(1.03);
+}
+.proj-info2{
+    background-color: rgb(0, 75, 249);
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 5px;
+    height: 200px;
+    width: 49vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.proj-info2:hover{
+    background-color: rgb(0, 75, 249);
+    background-image: linear-gradient(to right,rgb(0, 75, 249),  rgb(255, 187, 0)  );
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 5px;
+    height: 200px;
+    width: 49vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.proj-info3{
+    background-color: rgb(0, 75, 249);
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin: auto;
+    height: 200px;
+    width: 50vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.proj-info3:hover{
+    background-color: rgb(0, 75, 249);
+    background-image: linear-gradient(to right,rgb(0, 75, 249),  rgb(255, 187, 0)  );
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin: auto;
+    height: 200px;
+    width: 50vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.weatherwise{
+    transition: transform 0.5s
+}
+.weatherwise:hover{
+    transform: scale(1.03);
+}
+.personal-interests{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.line{
+    margin-left: 40%;
+    margin-right: 40%;
+    height: 4px;
+    border: none;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    margin-right: 0px;
+}
