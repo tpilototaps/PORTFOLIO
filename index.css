@@ -272,26 +272,35 @@
     .proj-shots-endeavor{
         margin-top: 10px;
         width: 100vw;
+        height: 30vh;
         margin-right: 5px;
     }
     .proj-shots-pokego{
         margin-top: 10px;
         width: 100vw;
+        height: 30vh;
         margin-right: 5px;
     }
     .proj-shots-weather{
         margin-top: 10px;
         width: 100vw;
+        height: 30vh;
         margin-right: 5px;
     }
-   
-    .info-container{
+    .my-applications-backdrop{
+        padding-top: 3%;
+        background: url(https://www.exascaleproject.org/wp-content/uploads/2019/11/PathForward-scaled.jpg) center;
+        text-align: center;
+        color: aliceblue;
+    }
+       .info-container{
         display: flex;
         justify-content: space-between;
         padding-bottom: 10px;
     }
     .proj-header{
         text-align: center;
+        opacity: 0;
     }
     .proj-info1{
         background-color: rgb(0, 75, 249);
@@ -301,8 +310,9 @@
         flex-direction: column;
         justify-content: center;
         color: aliceblue;
+        overflow-x: scroll;
         margin-right: 5px;
-        height: 200px;
+        height: 300px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -312,7 +322,7 @@
         justify-content: center;
         color: aliceblue;
         margin-right: 5px;
-        height: 200px;
+        height: 300px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -334,8 +344,9 @@
         flex-direction: column;
         justify-content: center;
         color: aliceblue;
+        overflow-x: scroll;
         margin-left: 5px;
-        height: 200px;
+        height: 300px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -348,7 +359,7 @@
         justify-content: center;
         color: aliceblue;
         margin-left: 5px;
-        height: 200px;
+        height: 300px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -359,8 +370,9 @@
         flex-direction: column;
         justify-content: center;
         color: aliceblue;
+        overflow-x: scroll;
         margin: auto;
-        height: 200px;
+        height: 300px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -373,8 +385,8 @@
         justify-content: center;
         color: aliceblue;
         margin: auto;
-        height: 200px;
-        width: 50vw;
+        height: 300px;
+        width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
     .weatherwise{
@@ -382,5 +394,25 @@
     }
     .weatherwise:hover{
         transform: scale(1.03);
+    }
+    .personal-interests{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar{
+        position: fixed;
+        opacity: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .card{
+        height:100vw;
     }
 }
