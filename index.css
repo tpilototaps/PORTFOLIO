@@ -254,6 +254,9 @@
         justify-content: center;
         flex-direction: column;
     }
+    .optional-greeting{
+        opacity: 0%;
+    }
     .my-attributes{
         height: auto;
         width: 100%;
