@@ -247,6 +247,13 @@
     font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 1000px) {
+    .greeting{
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .my-attributes{
         height: auto;
         width: 100%;
