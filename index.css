@@ -203,8 +203,9 @@
     justify-content: center;
     color: aliceblue;
     margin: auto;
+    margin-right: 0px;
     height: 200px;
-    width: 50vw;
+    width: 49vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .proj-info3:hover{
@@ -216,8 +217,9 @@
     justify-content: center;
     color: aliceblue;
     margin: auto;
+    margin-right: 0px;
     height: 200px;
-    width: 50vw;
+    width: 49vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .weatherwise{
@@ -282,19 +284,19 @@
     .proj-shots-endeavor{
         margin-top: 10px;
         width: 100vw;
-        height: 30vh;
+        height:45vh;
         margin-right: 5px;
     }
     .proj-shots-pokego{
         margin-top: 10px;
         width: 100vw;
-        height: 30vh;
+        height: 45vh;
         margin-right: 5px;
     }
     .proj-shots-weather{
         margin-top: 10px;
         width: 100vw;
-        height: 30vh;
+        height: 45vh;
         margin-right: 5px;
     }
     .my-applications-backdrop{
@@ -322,7 +324,7 @@
         color: aliceblue;
         overflow-x: scroll;
         margin-right: 5px;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -332,7 +334,7 @@
         justify-content: center;
         color: aliceblue;
         margin-right: 5px;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -356,7 +358,7 @@
         color: aliceblue;
         overflow-x: scroll;
         margin-left: 5px;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -369,7 +371,7 @@
         justify-content: center;
         color: aliceblue;
         margin-left: 5px;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -382,7 +384,7 @@
         color: aliceblue;
         overflow-x: scroll;
         margin: auto;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
@@ -395,7 +397,7 @@
         justify-content: center;
         color: aliceblue;
         margin: auto;
-        height: 300px;
+        height: 250px;
         width: 100vw;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
